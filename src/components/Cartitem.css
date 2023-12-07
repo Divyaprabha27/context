@@ -1,0 +1,22 @@
+.CartItem_item img {
+    width: 100px;
+    height: 100%;
+}
+.CartItem_item {
+    border-top: 1px solid gray;
+    padding: 10px 0;
+    display: flex;
+}
+.CartItem_button {
+    margin-left: auto;
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+.CartItem_button:focus,.CartItem_button:active {
+    outline: none;
+}
+.move {
+    padding-left: 15px;
+}
